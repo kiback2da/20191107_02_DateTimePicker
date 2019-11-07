@@ -2,6 +2,8 @@ package com.tjoeun.a20191107_02_datetimepicker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : BaseActivity() {
 
@@ -13,6 +15,9 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
+        dateBtn.setOnClickListener {
+
+        }
     }
 
     override fun setValues() {
